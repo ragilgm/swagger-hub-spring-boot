@@ -1,0 +1,83 @@
+[
+  {
+    "tribeName":"finance",
+    "description": "test",
+    "services": [
+      {
+        "name": "service1",
+        "location":"/finance/file.json",
+        "description":"description 1",
+        "version": "0.1.1",
+        "type": "SWAGGER"
+      },
+      {
+        "name": "service2",
+        "location":"https://petstore.swagger.io/v2/swagger.json",
+        "description":"description 2",
+        "version": "2.0.1",
+        "type": "OPEN_API"
+      },
+      {
+        "name": "service3",
+        "location":"/finance/file.json",
+        "description":"description 3",
+        "version": "2.0.1",
+        "type": "SWAGGER"
+      }
+    ]
+  } ,
+  {
+    "tribeName":"Test",
+    "description": "test",
+    "services": [
+      {
+        "name": "service1",
+        "location":"/finance/file.json",
+        "description":"",
+        "version": "2.0.1",
+        "type": "SWAGGER"
+      },
+      {
+        "name": "service2",
+        "location":"https://petstore.swagger.io/v2/swagger.json",
+        "description":"",
+        "version": "2.0.1",
+        "type": "OPEN_API"
+      },
+      {
+        "name": "service3",
+        "location":"/finance/file.json",
+        "description":"",
+        "version": "2.0.1",
+        "type": "SWAGGER"
+      }
+    ]
+  } ,
+  {
+    "tribeName":"pruforce",
+    "description": "test",
+    "services": [
+      {
+        "name": "test",
+        "location":"",
+        "description":"",
+        "version": "",
+        "type": "SWAGGER"
+      },
+      {
+        "name": "test",
+        "location":"",
+        "description":"",
+        "version": "",
+        "type": "SWAGGER"
+      },
+      {
+        "name": "test",
+        "location":"",
+        "description":"",
+        "version": "",
+        "type": "SWAGGER"
+      }
+    ]
+  }
+]
